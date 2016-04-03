@@ -12,7 +12,7 @@ Recordings of 30 subjects performing activities of daily living (ADL) while carr
 
 ###Collection of the raw data
 from the website:
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones /n
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones \n
 downloaded from link:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
