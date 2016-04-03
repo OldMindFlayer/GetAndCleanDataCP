@@ -148,6 +148,9 @@ SD - Standard deviation
 (y) - Y-axial raw signal                                   
 (z) - Z-axial raw signal                                      
 
+Notes on variable [1] ""subject":      
+include code of subject from 1 to 30
+
 Notes on variable [2] "activity":      
 [1] "walking"               
 [2] "walking_upstairs"       
