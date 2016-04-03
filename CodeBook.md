@@ -107,14 +107,27 @@ Classes:
  [1] "subject" - integer           
  [2] "activity" - character          
  [3-68] other - double          
+ 
 Unit of measurement of [1] variable - subject number from 1 to 30        
 Unit of measurement of [2] variable - activity label         
 Unit of measurement of [3-68] variables normalized and bounded within [-1,1]        
 
-Schema of the names of [3-68] variables:
+Schema of the names of [3-68] variables:      
+t - time                                                    
+f - frequency domain signals                                   
+Body - body signals                                        
+Gravity - gravity signals                                   
+Acc - data come from the accelerometer                               
+Gyro - data come from the gyroscope                                 
+Jerk - Jerk signals                                               
+Mag - magnitude of these three-dimensional signals                   
+Mean - Mean value                                             
+SD - Standard deviation                                           
+(x) - X-axial raw signal                                
+(y) - Y-axial raw signal                                   
+(z) - Z-axial raw signal                                      
 
-
-####Notes on variable [2] "activity":      
+Notes on variable [2] "activity":      
 [1] "walking"               
 [2] "walking_upstairs"       
 [3] "walking_downstairs"       
