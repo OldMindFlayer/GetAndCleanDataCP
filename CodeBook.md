@@ -30,7 +30,7 @@ run "run_analysis.R" script to obtain tiny_data.txt and tiny_data.csv files in .
 ###Cleaning of the data
 https://github.com/OldMindFlayer/Getting-and-Cleaning-Data-Course-Project/blob/master/README.md              
 
-script "run_analysis.r"
+script "run_analysis.r"                                                  
 1) Check the "./CourseProject" directory and (if False) creat it                                      
 2) Download and unzip data file                                                                              
 3) Read data and creating datasets in variables:                                         
