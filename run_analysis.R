@@ -60,3 +60,7 @@ ComboMS<-arrange(ComboMS, subject, activity)
 
 # data set with the average of each variable for each activity and each subject
 ComboGS<-summarise_each(group_by(ComboMS, subject, activity), funs(mean), -subject, -activity)
+
+#creation of tiny_data file (.txt anf .csv)
+write.table(ComboGS, "./tiny_data.txt", sep="\t")
+write.csv(ComboGS, "./tiny_data.csv")
