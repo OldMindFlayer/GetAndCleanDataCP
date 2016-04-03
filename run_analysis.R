@@ -2,13 +2,13 @@ library(dplyr)
 library(tidyr)
 
 # check of directory
-if (!file.exists("CourseProject")) {dir.create("CourseProject")}
-setwd("./CourseProject/")
+# if (!file.exists("CourseProject")) {dir.create("CourseProject")}
+# setwd("./CourseProject/")
 
 # download and unzip data file
-fileUrl<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download.file(fileUrl, destfile = "./getdata-projectfiles-UCI HAR Dataset.zip")
-dateDownloaded<-date()
+# fileUrl<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+# download.file(fileUrl, destfile = "./getdata-projectfiles-UCI HAR Dataset.zip")
+# dateDownloaded<-date()
 unzip("./getdata-projectfiles-UCI HAR Dataset.zip")
 
 # read all relevent .txt files
@@ -63,4 +63,4 @@ ComboGS<-summarise_each(group_by(ComboMS, subject, activity), funs(mean), -subje
 
 #creation of tiny_data file (.txt anf .csv)
 write.table(ComboGS, "./tiny_data.txt", sep="\t", row.name = FALSE)
-write.csv(ComboGS, "./tiny_data.csv")
+# write.csv(ComboGS, "./tiny_data.csv")
