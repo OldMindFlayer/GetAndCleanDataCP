@@ -104,30 +104,27 @@ https://github.com/OldMindFlayer/Getting-and-Cleaning-Data-Course-Project/blob/m
 [68] "fBodyBodyGyroJerkMagSD"
 
 Classes:
- [1] "subject" - integer
- 
- [2] "activity" - character
- 
- [3-68] other - double
+ [1] "subject" - integer 
+ [2] "activity" - character 
+ [3-68] other - double 
+Unit of measurement of [1] variable - subject number from 1 to 30  
+Unit of measurement of [2] variable - activity label 
+Unit of measurement of [3-68] variables normalized and bounded within [-1,1] 
 
-(you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
+Schema of the names of [3-68] variables:
 
-###Variable 1 (repeat this section for all variables in the dataset)
-Short description of what the variable describes.
 
-Some information on the variable including:
- - Class of the variable
- - Unique values/levels of the variable
- - Unit of measurement (if no unit of measurement list this as well)
- - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels). 
-
-(you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
-
-####Notes on variable 1:
-If available, some additional notes on the variable not covered elsewehere. If no notes are present leave this section out.
+####Notes on variable [2] "activity": 
+[1] "walking"           
+[2] "walking_upstairs"  
+[3] "walking_downstairs"
+[4] "sitting"           
+[5] "standing"          
+[6] "laying" 
 
 ##Sources
-Sources you used if any, otherise leave out.
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
-##Annex
-If you used any code in the codebook that had the echo=FALSE attribute post this here (make sure you set the results parameter to 'hide' as you do not want the results to show again)
+This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
+
+Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
