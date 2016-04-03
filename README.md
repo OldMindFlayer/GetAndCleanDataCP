@@ -1,9 +1,9 @@
 # Getting-and-Cleaning-Data-Course-Project 
 script "run_analysis.r"
 
-1) Check the "./CourseProject" directory and (if False) creat it   
+*1) Check the "./CourseProject" directory and (if False) creat it   
 
-2) Download and unzip data file
+*2) Download and unzip data file
 
 3) Read data and creating datasets in variables:          
 [1] "subject_test"        
@@ -30,5 +30,6 @@ script "run_analysis.r"
 
 11) create data set with the average of each variable for each activity and each subject, and store it in "ComboGS" dataframe, which is tiby data        
 
-12) creation of tiny_data file (.txt anf .csv) in the "./CourseProject" directory
+12) creation of tiny_data file (.txt) in the working directory
 
+*this steps are in code with # simble
