@@ -33,7 +33,7 @@ https://github.com/OldMindFlayer/Getting-and-Cleaning-Data-Course-Project/blob/m
 ##Description of the variables in the tiny_data.txt file
  - Dimensions of the dataset: 180 x 68
  - rows: 30 subjects x 6 activities
- - variable names:
+ - variable names:          
  [1] "subject"                 
  [2] "activity"                
  [3] "tBodyAccMean(x)"         
@@ -92,33 +92,33 @@ https://github.com/OldMindFlayer/Getting-and-Cleaning-Data-Course-Project/blob/m
 [56] "fBodyGyroMean(y)"        
 [57] "fBodyGyroMean(z)"        
 [58] "fBodyGyroSD(x)"          
-[59] "fBodyGyroSD(y)"          
+[59] "fBodyGyroSD(y)"            
 [60] "fBodyGyroSD(z)"          
-[61] "fBodyAccMagMean"         
-[62] "fBodyAccMagSD"           
-[63] "fBodyBodyAccJerkMagMean" 
-[64] "fBodyBodyAccJerkMagSD"   
-[65] "fBodyBodyGyroMagMean"    
-[66] "fBodyBodyGyroMagSD"      
-[67] "fBodyBodyGyroJerkMagMean"
-[68] "fBodyBodyGyroJerkMagSD"
+[61] "fBodyAccMagMean"           
+[62] "fBodyAccMagSD"            
+[63] "fBodyBodyAccJerkMagMean"     
+[64] "fBodyBodyAccJerkMagSD"        
+[65] "fBodyBodyGyroMagMean"        
+[66] "fBodyBodyGyroMagSD"          
+[67] "fBodyBodyGyroJerkMagMean"       
+[68] "fBodyBodyGyroJerkMagSD"     
 
 Classes:
- [1] "subject" - integer 
- [2] "activity" - character 
- [3-68] other - double 
-Unit of measurement of [1] variable - subject number from 1 to 30  
-Unit of measurement of [2] variable - activity label 
-Unit of measurement of [3-68] variables normalized and bounded within [-1,1] 
+ [1] "subject" - integer           
+ [2] "activity" - character          
+ [3-68] other - double          
+Unit of measurement of [1] variable - subject number from 1 to 30        
+Unit of measurement of [2] variable - activity label         
+Unit of measurement of [3-68] variables normalized and bounded within [-1,1]        
 
 Schema of the names of [3-68] variables:
 
 
-####Notes on variable [2] "activity": 
-[1] "walking"           
-[2] "walking_upstairs"  
-[3] "walking_downstairs"
-[4] "sitting"           
+####Notes on variable [2] "activity":      
+[1] "walking"               
+[2] "walking_upstairs"       
+[3] "walking_downstairs"       
+[4] "sitting"             
 [5] "standing"          
 [6] "laying" 
 
