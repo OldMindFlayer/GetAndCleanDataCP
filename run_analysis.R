@@ -62,5 +62,5 @@ ComboMS<-arrange(ComboMS, subject, activity)
 ComboGS<-summarise_each(group_by(ComboMS, subject, activity), funs(mean), -subject, -activity)
 
 #creation of tiny_data file (.txt anf .csv)
-write.table(ComboGS, "./tiny_data.txt", sep="\t")
+write.table(ComboGS, "./tiny_data.txt", sep="\t", row.name = FALSE)
 write.csv(ComboGS, "./tiny_data.csv")
